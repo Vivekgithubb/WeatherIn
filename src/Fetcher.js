@@ -1,6 +1,6 @@
 async function Fetcher(city) {
   const api_key = "9ea37ea7ea994d71915161824250607";
-  const url = `http://api.weatherapi.com/v1/current.json?key=${api_key}&q=${city}`;
+  const url = `https://api.weatherapi.com/v1/current.json?key=${api_key}&q=${city}`;
   if (!city.trim()) return;
   try {
     const res = await fetch(url);

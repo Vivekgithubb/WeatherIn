@@ -34,7 +34,7 @@ function Footer() {
           // promise all waits till allthe results are arrived
           cities.map(async (city) => {
             const res = await fetch(
-              `http://api.weatherapi.com/v1/current.json?key=${api_key}&q=${city}`
+              `https://api.weatherapi.com/v1/current.json?key=${api_key}&q=${city}`
             );
             const data = await res.json();
             console.log(data.current.condition.icon);

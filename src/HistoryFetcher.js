@@ -1,7 +1,7 @@
 async function HistoryFetcher(city) {
   const api_key = "9ea37ea7ea994d71915161824250607";
   const today = new Date().toISOString().split("T")[0];
-  const url = `http://api.weatherapi.com/v1/history.json?key=${api_key}&q=${city}&dt=${today}`;
+  const url = `https://api.weatherapi.com/v1/history.json?key=${api_key}&q=${city}&dt=${today}`;
   if (!city.trim()) return;
   try {
     const res = await fetch(url);

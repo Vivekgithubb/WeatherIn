@@ -1,6 +1,5 @@
-import { useEffect, useState } from "react";
 import styled from "styled-components";
-import Fetcher from "./Fetcher";
+
 import { useGlobal } from "./GlobalContext";
 
 const UL = styled.ul`
