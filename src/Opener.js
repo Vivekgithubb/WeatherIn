@@ -17,15 +17,15 @@ const Background = styled.div`
   z-index: -1; /* Send it behind the content */
 `;
 
-const Div1 = styled.div`
-  width: max-content;
-  padding: 10px;
-  border-radius: 20px;
-  font-size: 60px;
-  height: max-content;
-  text-shadow: 2px 2px 5px white;
-  /* background-color: aliceblue; */
-`;
+// const Div1 = styled.div`
+//   width: max-content;
+//   padding: 10px;
+//   border-radius: 20px;
+//   font-size: 60px;
+//   height: max-content;
+//   text-shadow: 2px 2px 5px white;
+//   /* background-color: aliceblue; */
+// `;
 const Div = styled.div`
   height: 100%;
   width: 100%;

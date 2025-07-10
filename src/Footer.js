@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import FooterContent from "./FooterContent";
 import { FiChevronsLeft, FiChevronsRight } from "react-icons/fi";
-import styled from "styled-components";
+
 // import { useGlobal } from "./GlobalContext";
 
 function Footer() {

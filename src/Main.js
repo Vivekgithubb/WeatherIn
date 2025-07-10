@@ -1,6 +1,4 @@
-import { useEffect, useState } from "react";
 import styled from "styled-components";
-import Fetcher from "./Fetcher";
 import SideBar from "./SideBar";
 import Grid from "./Grid";
 import Footer from "./Footer";

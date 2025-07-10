@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import formatDate from "./formatDate";
 
 const Img = styled.img`
   height: 119px;

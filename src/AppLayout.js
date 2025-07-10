@@ -2,7 +2,6 @@ import styled from "styled-components";
 import Silk from "./Silk";
 import Nav from "./Nav";
 import Main from "./Main";
-import Footer from "./Footer";
 
 const StyledLayout = styled.div`
   margin: 0;

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import styled from "styled-components";
 import formatDate from "./formatDate";
 import { LiaCompass, LiaWindSolid, LiaWaterSolid } from "react-icons/lia";
